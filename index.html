@@ -14,12 +14,12 @@
         <link rel="manifest" href="manifest.json">
 
         <!-- Icons for iPhone Home Screen -->
-        <link rel="apple-touch-icon" href="/icons/icon-512.png" sizes="512x512">
-        <link rel="apple-touch-icon" href="/icons/icon-256.png" sizes="256x256">
-        <link rel="apple-touch-icon" href="/icons/icon-192.png" sizes="192x192">
-        <link rel="apple-touch-icon" href="/icons/icon-152.png" sizes="152x152">
-        <link rel="apple-touch-icon" href="/icons/icon-144.png" sizes="144x144">
-        <link rel="apple-touch-icon" href="/icons/icon-128.png" sizes="128x128">
+        <link rel="apple-touch-icon" href="./icons/icon-512.png" sizes="512x512">
+        <link rel="apple-touch-icon" href="./icons/icon-256.png" sizes="256x256">
+        <link rel="apple-touch-icon" href="./icons/icon-192.png" sizes="192x192">
+        <link rel="apple-touch-icon" href="./icons/icon-152.png" sizes="152x152">
+        <link rel="apple-touch-icon" href="./icons/icon-144.png" sizes="144x144">
+        <link rel="apple-touch-icon" href="./icons/icon-128.png" sizes="128x128">
 
         <!-- Default Title for iPhone Home Screen -->
         <meta name="apple-mobile-web-app-title" content="Spinner">
@@ -34,12 +34,12 @@
         <link rel="icon" href="icons/icon-512.png">
 
         <!-- Code from Favicon Generator Site -->
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
         <!-- Moved relevant data to my own manifest -->
         <!-- link rel="manifest" href="/site.webmanifest" -->
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2b5797">
+        <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#2b5797">
         <meta name="apple-mobile-web-app-title" content="Spinner">
         <meta name="application-name" content="Spinner">
         <meta name="msapplication-TileColor" content="#2b5797">
@@ -55,7 +55,7 @@
         <!-- Register the Service Worker -->
         <script>
             if('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('/sw.js')
+                navigator.serviceWorker.register('./sw.js')
                     .then(
                         function() {
                             console.log('Service Worker Registered');
