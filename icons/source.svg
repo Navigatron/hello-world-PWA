@@ -15,7 +15,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.2 2405546, 2018-03-11"
-   sodipodi:docname="source.svg">
+   sodipodi:docname="source.svg"
+   inkscape:export-filename="/home/ethan/projects/spinner/icons/icon-128.png"
+   inkscape:export-xdpi="12.7"
+   inkscape:export-ydpi="12.7">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="469.28967"
+     inkscape:cx="958.2035"
      inkscape:cy="521.50541"
      inkscape:document-units="mm"
      inkscape:current-layer="svg8"
@@ -52,6 +55,13 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1" />
+  <rect
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.06500006;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect850"
+     width="256"
+     height="256"
+     x="0"
+     y="0" />
   <path
      style="fill:none;stroke:#000000;stroke-width:16px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="M 0,8 H 256"
@@ -89,4 +99,10 @@
      d="m 192,128 -64,64"
      id="path827"
      inkscape:connector-curvature="0" />
+  <path
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:8.13212585;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 61.390069,484.43944 V 62.19568 H 483.63383 905.8776 V 484.43944 906.68321 H 483.63383 61.390069 Z M 495.31548,754.07991 c 5.22148,-2.15549 45.27376,-40.80202 131.38545,-126.77415 68.13081,-68.02038 125.17917,-126.12839 126.77414,-129.12893 3.77482,-7.10137 3.69977,-20.53262 -0.16021,-28.6669 -4.66147,-9.82335 -251.24263,-255.19269 -258.17383,-256.90506 -10.17424,-2.51356 -25.33421,0.11569 -30.95799,5.36915 -10.74283,10.03545 -14.13438,26.13851 -7.95412,37.7662 1.59481,3.00053 52.96111,55.45501 114.14734,116.5655 L 681.62391,483.41569 569.70725,595.54944 c -61.55415,61.67355 -112.92044,114.11951 -114.14731,116.54659 -3.75383,7.42603 -2.69259,22.64709 2.12214,30.43749 4.49494,7.27296 17.15993,14.52238 25.51157,14.60274 2.5358,0.0245 7.99063,-1.35095 12.12183,-3.05635 z m 2.42022,-242.87456 c 10.38969,-5.21996 16.20429,-15.11842 16.19515,-27.56975 -0.0101,-13.6638 -5.49842,-22.52787 -17.1362,-27.67581 -8.63436,-3.81939 -13.54292,-3.94099 -137.18019,-3.39809 -125.909,0.55285 -128.3262,0.63827 -133.80311,4.72846 -10.50421,7.84462 -13.90855,14.40247 -13.90855,26.79236 0,8.60957 1.11718,13.03478 4.4814,17.75112 9.46173,13.26446 4.34591,12.81389 146.03133,12.86125 118.16079,0.0394 128.84447,-0.23604 135.32017,-3.48954 z"
+     id="path848"
+     inkscape:connector-curvature="0"
+     transform="scale(0.26458333)" />
 </svg>

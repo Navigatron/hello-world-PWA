@@ -12,12 +12,13 @@
             It's an arrow, and when you click/tap it, it spins.
         ">
         <!-- Load CSS -->
-        <link rel="stylesheet" href="./master.css">
+        <link rel="stylesheet" href="./css/master.css">
         <!-- Title -->
         <title>Spinner</title>
         <!-- Load App JavaScript -->
         <script src="./js/app.js" charset="utf-8"></script>
         <!-- Some Favicons for looking good -->
+        <!-- There's a 48x48 as well, just called favicon.ico -->
         <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
         <!-- A Theme color. This seems important. -->
@@ -35,6 +36,7 @@
         <link rel="apple-touch-icon" href="./icons/icon-152.png" sizes="152x152">
         <link rel="apple-touch-icon" href="./icons/icon-144.png" sizes="144x144">
         <link rel="apple-touch-icon" href="./icons/icon-128.png" sizes="128x128">
+        <link rel="apple-touch-icon" href="./icons/icon-120.png" sizes="120x120">
         <!-- Launch Screen: None -->
         <!-- Launch Icon Title -->
         <meta name="apple-mobile-web-app-title" content="Spinner">
@@ -43,8 +45,15 @@
         <!-- Change Status Bar Appearance -->
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
         <!-- From Favicon Generator, I think this just applies to desktop safari but why not -->
-        <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#2b5797">
+        <link rel="mask-icon" href="./icons/safari-pinned-tab.svg" color="#2b5797">
 
+        <!--
+            Test 1: Yay! If we stop here, we'll need a loading screen.
+                    Icon has a black background, not white, not good.
+                    It looks like the phone is asking for a 120x120 icon a lot.
+
+            Updating Icon Set, Adding new 120x Icon, White Backgrounds
+        -->
 
 
     </head>
