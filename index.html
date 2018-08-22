@@ -1,59 +1,64 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
-        <!-- I don't think this head section is long enough. -->
-
         <meta charset="utf-8">
         <title>Spinner</title>
 
-        <!-- Viewport and css -->
+        <!-- Viewport for Mobile Visitors -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS -->
         <link rel="stylesheet" href="./master.css">
 
+        <!-- App JavaScript -->
+        <script src="./js/app.js" charset="utf-8"></script>
+
         <!-- Link the Manifest -->
-        <link rel="manifest" href="manifest.json">
+        <!-- <link rel="manifest" href="manifest.json"> -->
 
         <!-- Icons for iPhone Home Screen -->
-        <link rel="apple-touch-icon" href="./icons/icon-512.png" sizes="512x512">
+        <!-- <link rel="apple-touch-icon" href="./icons/icon-512.png" sizes="512x512">
         <link rel="apple-touch-icon" href="./icons/icon-256.png" sizes="256x256">
         <link rel="apple-touch-icon" href="./icons/icon-192.png" sizes="192x192">
         <link rel="apple-touch-icon" href="./icons/icon-152.png" sizes="152x152">
         <link rel="apple-touch-icon" href="./icons/icon-144.png" sizes="144x144">
-        <link rel="apple-touch-icon" href="./icons/icon-128.png" sizes="128x128">
+        <link rel="apple-touch-icon" href="./icons/icon-128.png" sizes="128x128"> -->
 
         <!-- Default Title for iPhone Home Screen -->
-        <meta name="apple-mobile-web-app-title" content="Spinner">
+        <!-- <meta name="apple-mobile-web-app-title" content="Spinner"> -->
 
         <!-- Make it be a web app -->
-        <meta name="apple-mobile-web-app-capable" content="yes">
+        <!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
 
         <!-- Show this when loading from home screen -->
         <!-- link rel="apple-touch-startup-image" href="/launch.png" -->
 
         <!-- I want this to be the icon -->
-        <link rel="icon" href="icons/icon-512.png">
+        <!-- <link rel="icon" href="icons/icon-512.png"> -->
 
         <!-- Code from Favicon Generator Site -->
-        <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+        <!-- <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png"> -->
         <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
         <!-- Moved relevant data to my own manifest -->
         <!-- link rel="manifest" href="/site.webmanifest" -->
-        <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#2b5797">
+        <!-- <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#2b5797">
         <meta name="apple-mobile-web-app-title" content="Spinner">
         <meta name="application-name" content="Spinner">
-        <meta name="msapplication-TileColor" content="#2b5797">
+        <meta name="msapplication-TileColor" content="#2b5797"> -->
         <meta name="theme-color" content="#ffffff">
 
     </head>
     <body>
 
         <!-- Page Content -->
-        <h1>Hello, World!</h1>
-
+        <h1>Spinner</h1>
+        <div class="box">
+            <img onclick="spin();" id="arrow" src="./icons/source.svg" alt="arrow">
+        </div>
 
         <!-- Register the Service Worker -->
-        <script>
+        <!-- <script>
             if('serviceWorker' in navigator) {
                 navigator.serviceWorker.register('./sw.js')
                     .then(
@@ -62,7 +67,7 @@
                         }
                     );
             }
-        </script>
+        </script> -->
 
     </body>
 </html>
