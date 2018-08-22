@@ -22,6 +22,11 @@ window.onload = function(){
     arrow.addEventListener("touchend", function(e){
         e.preventDefault();
     });
+    if(window.navigator.standalone){
+        console.log("We are in Web-App Mode on an iPhone");
+    }else{
+        console.log("We are NOT in web-app mode on an iPhone.");
+    }
 }
 
 var spin = function(){

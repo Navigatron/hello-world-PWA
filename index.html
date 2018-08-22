@@ -1,52 +1,51 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
+        <!-- Objective 1: Make the App Function. -->
+        <!-- Character Set and Content Type -->
         <meta charset="utf-8">
-        <title>Spinner</title>
-
-        <!-- Viewport for Mobile Visitors -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!-- CSS -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <!-- Yes, Google can have this if it wants it. -->
+        <meta name=”robots” content="index,follow">
+        <!-- What is even going on? -->
+        <meta name="description" content="
+            It's an arrow, and when you click/tap it, it spins.
+        ">
+        <!-- Load CSS -->
         <link rel="stylesheet" href="./master.css">
-
-        <!-- App JavaScript -->
+        <!-- Title -->
+        <title>Spinner</title>
+        <!-- Load App JavaScript -->
         <script src="./js/app.js" charset="utf-8"></script>
-
-        <!-- Link the Manifest -->
-        <!-- <link rel="manifest" href="manifest.json"> -->
-
-        <!-- Icons for iPhone Home Screen -->
-        <!-- <link rel="apple-touch-icon" href="./icons/icon-512.png" sizes="512x512">
-        <link rel="apple-touch-icon" href="./icons/icon-256.png" sizes="256x256">
-        <link rel="apple-touch-icon" href="./icons/icon-192.png" sizes="192x192">
-        <link rel="apple-touch-icon" href="./icons/icon-152.png" sizes="152x152">
-        <link rel="apple-touch-icon" href="./icons/icon-144.png" sizes="144x144">
-        <link rel="apple-touch-icon" href="./icons/icon-128.png" sizes="128x128"> -->
-
-        <!-- Default Title for iPhone Home Screen -->
-        <!-- <meta name="apple-mobile-web-app-title" content="Spinner"> -->
-
-        <!-- Make it be a web app -->
-        <!-- <meta name="apple-mobile-web-app-capable" content="yes"> -->
-
-        <!-- Show this when loading from home screen -->
-        <!-- link rel="apple-touch-startup-image" href="/launch.png" -->
-
-        <!-- I want this to be the icon -->
-        <!-- <link rel="icon" href="icons/icon-512.png"> -->
-
-        <!-- Code from Favicon Generator Site -->
-        <!-- <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png"> -->
+        <!-- Some Favicons for looking good -->
         <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-        <!-- Moved relevant data to my own manifest -->
-        <!-- link rel="manifest" href="/site.webmanifest" -->
-        <!-- <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#2b5797">
-        <meta name="apple-mobile-web-app-title" content="Spinner">
-        <meta name="application-name" content="Spinner">
-        <meta name="msapplication-TileColor" content="#2b5797"> -->
+        <!-- A Theme color. This seems important. -->
         <meta name="theme-color" content="#ffffff">
+
+
+        <!-- Objective 2: iPhone Support -->
+        <!-- Viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Webpage Icon / WebClip -->
+        <link rel="apple-touch-icon" href="./icons/icon-512.png" sizes="512x512">
+        <link rel="apple-touch-icon" href="./icons/icon-256.png" sizes="256x256">
+        <link rel="apple-touch-icon" href="./icons/icon-192.png" sizes="192x192">
+        <link rel="apple-touch-icon" href="./apple-touch-icon.png" sizes="180x180">
+        <link rel="apple-touch-icon" href="./icons/icon-152.png" sizes="152x152">
+        <link rel="apple-touch-icon" href="./icons/icon-144.png" sizes="144x144">
+        <link rel="apple-touch-icon" href="./icons/icon-128.png" sizes="128x128">
+        <!-- Launch Screen: None -->
+        <!-- Launch Icon Title -->
+        <meta name="apple-mobile-web-app-title" content="Spinner">
+        <!-- Hide Safari UI Components -->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <!-- Change Status Bar Appearance -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <!-- From Favicon Generator, I think this just applies to desktop safari but why not -->
+        <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#2b5797">
+
+
 
     </head>
     <body>
