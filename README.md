@@ -1,11 +1,14 @@
-#spinner
+# spinner
 
-Progresive Web App
+> Hello, World!
 
-Show an icon on the phone's home screen
-load html and css from cache when opened.
+- 50 ish link/meta tags in the head
+- manifests
+- service workers
+- XML config files
+- dependant on https
+- all just to say hello
 
-Google Polymer is a "starter kit"
-for creating PWAs.
+**Also, you can add it to your iPhone's home screen.**
 
-Polymer fucking disgusts me.
+So I'd say that's pretty cool.
