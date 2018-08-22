@@ -9,7 +9,20 @@ var drag_linear = 0.05;
 var threshold = 0.1;
 var spinning = false;
 
+var arrow;
 
+window.onload = function(){
+    console.log("Window Loaded");
+    arrow = document.getElementById('arrow');
+    arrow.addEventListener("click", spin);
+    arrow.addEventListener("touchstart", function(e){
+        e.preventDefault();
+        spin();
+    });
+    arrow.addEventListener("touchend", function(e){
+        e.preventDefault();
+    });
+}
 
 var spin = function(){
     console.log("You've poked the arrow.");
@@ -31,7 +44,7 @@ var tick = function(timestamp){
     // Quadratic Drag
     velocity -= velocity * velocity * drag_quadratic;
     // apply
-    document.getElementById('arrow').style.transform = 'rotate('+rotation+'deg)';
+    arrow.style.transform = 'rotate('+rotation+'deg)';
     if(velocity > threshold){
         window.requestAnimationFrame(tick);
     }else{
