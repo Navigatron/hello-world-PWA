@@ -4,8 +4,7 @@ var filesToCache = [
     './index.html',
     './css/master.css',
     './icons/source.svg',
-    './js/app.js',
-    './js/service-worker.js'
+    './js/app.js'
 ];
 
 /*
