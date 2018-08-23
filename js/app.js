@@ -36,7 +36,7 @@ window.onload = function(){
     // Let's register a service worker so we can do this offline
     if('serviceWorker' in navigator) {
         console.log("[service-worker] Attempting to Register...");
-        navigator.serviceWorker.register("./js/service-worker.js").then(
+        navigator.serviceWorker.register("./service-worker.js").then(
             function() {
                 console.log("[service-worker] Registered Successfully!");
             },
