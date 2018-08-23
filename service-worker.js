@@ -1,13 +1,9 @@
 var cacheName = 'spinner';
 // I don't know to use relative or absolute paths here.
 var filesToCache = [
-    './',
     './index.html',
-    './css',
     './css/master.css',
-    './icons',
     './icons/source.svg',
-    './js',
     './js/app.js',
     './js/service-worker.js'
 ];
